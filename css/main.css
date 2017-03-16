@@ -1,0 +1,238 @@
+body,
+html {
+	/* font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeiti", "Helvetica","Arial","Verdana","sans-serif"; */
+	background-color: #5293cf;
+	/* line-height: normal; */
+}
+
+
+/*
+ * icon-font
+ * 
+ */
+
+@font-face {
+	font-family: 'plane';
+	src: url('../fonts/icomoon.eot?gbakj0');
+	src: url('../fonts/icomoon.eot?gbakj0#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?gbakj0') format('truetype'), url('../fonts/icomoon.woff?gbakj0') format('woff'), url('../fonts/icomoon.svg?gbakj0#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: 'plane' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e901";
+}
+
+.icon-home {
+	display: inline-block;
+	font-size: 1.25rem;
+	padding-top: 4px;
+}
+
+.icon-plane:before {
+	content: "\e902";
+}
+
+.icon-plane {
+	display: inline-block;
+	font-size: 1.25rem;
+	padding: 0 1px;
+	vertical-align: middle;
+	color: #ffd115;
+}
+
+.icon-arrow-right:before {
+    content: "\e900";
+}
+.icon-arrow-right{
+	position: absolute;
+	font-size: 1rem;
+	top: 50%;
+	margin-top: -8px;
+	right: 0px;
+	color: #e3e3e3;
+}
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix {
+	overflow: hidden;
+	_zoom: 1;
+}
+
+
+/*header*/
+
+#header> .header-bar {
+	position: relative;
+	margin: 0 15px;
+}
+
+#header> .header-bar> .header-title {
+	margin: 0 90px;
+	text-align: center;
+	height: 44px;
+	line-height: 44px;
+	font-size: 1rem;
+	color: #fff;
+}
+
+#header> .header-bar> .header-back-home {
+	position: absolute;
+	width: 40px;
+	height: 44px;
+	color: #fff;
+	text-align: center;
+	font-size: 0px;
+}
+
+#header> .header-bar> .header-back-home> i {
+	width: 100%;
+	display: block;
+	font-style: normal;
+	font-size: .6125rem;
+}
+
+#header> .header-bar> .search-tickets {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#header> .header-bar> .search-tickets> .weui-btn-search-order {
+	background-color: #86b4dd;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 9px;
+	font-size: .75rem;
+}
+
+
+/*panel*/
+
+#ticket-panel {
+	padding: 0 15px;
+	margin-top: 15px;
+}
+
+#ticket-panel> .ticket-panel-list> .panel-default {
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	margin-bottom: 15px;
+}
+
+#ticket-panel>.ticket-panel-list> .panel-default> .panel-body {
+	padding:0 15px;
+	position: relative;
+}
+
+#ticket-panel>.ticket-panel-list> .panel-default> .panel-footer {
+	padding: 5px 15px;
+	background-color: #f8f8f8;
+	border-top: 1px solid #d8d8d8;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	font-size: .6125rem;
+	color: #888888;
+}
+
+#ticket-panel>.ticket-panel-list> .panel-default> .panel-footer span{
+	padding-right: 10px;
+}
+
+.weui-btn-plane-bottom {
+	color: #fff;
+	background-color: #ffcc14;
+	bottom: 0em;
+	border-radius: 0px;
+}
+
+#ticket-panel >.ticket-panel-list .panel-body-con .airline-info {
+	width: 70%;
+}
+#ticket-panel >.ticket-panel-list .panel-body-con .airline-info-wrap{
+	padding: 15px 0;
+}
+#ticket-panel >.ticket-panel-list .panel-body-con .airline-info-wrap .airline-city{
+	font-size: 1.125rem;
+}
+#ticket-panel .panel-two-way-ticket .panel-body-con .airline-info-wrap:nth-child(1){
+	border-bottom: 1px solid #d8d8d8;
+	
+}
+#ticket-panel >.ticket-panel-list .panel-body-con .cost-state {
+	text-align: right;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -20px;
+}
+
+#ticket-panel >.ticket-panel-list .panel-body-con .cost-state .cost-state-wrap{
+	padding-right: 20px;
+	position: relative;
+}
+
+#ticket-panel >.ticket-panel-list .cost-state .cost-state-wrap  .cost{
+	position: relative;
+	color: #ffcc14;
+	line-height: normal;
+}
+#ticket-panel >.ticket-panel-list .cost-state .cost-state-wrap  .state{
+	color: #9a9a9a;
+	font-size: 0.6125rem;
+	line-height: normal;
+}
+#ticket-panel >.ticket-panel-list .cost-state .cost-state-wrap  .not-pay{
+	color: #fff;
+	padding: 3px 5px;
+	background-color: #FFCC14;
+	border-radius: 5px;
+}
+#ticket-panel >.ticket-panel-list .cost-state .cost-state-wrap sub{
+	position: absolute;
+	left: -10px;
+	bottom: 1px;
+	font-size: .975rem;
+}
+#ticket-panel >.ticket-panel-list .cost-state .cost-state-wrap i{
+	font-style: normal;
+	font-size: 1.25rem;
+	/* font-size: 1.125rem; */
+}
+#ticket-panel>.ticket-panel-list .panel-body-con .airline-info .airline-city {
+	line-height: normal;
+	font-size: 1.125rem;
+}
+
+#ticket-panel>.ticket-panel-list .panel-body-con .airline-info .airline-time .air-start-time{
+	font-size: 0.75rem;
+}
+
+#ticket-panel>.ticket-panel-list .panel-body-con .airline-info .airline-time {
+	color: #888888;
+	font-size: .6125rem;
+	line-height: normal;
+	margin-top: 2px;
+}
