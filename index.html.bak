@@ -152,7 +152,9 @@
 			    </div>
 			</div>
 		</section>
-		
+		<section id="bottom-btn">
+			<a href="" class="weui-btn weui-btn-plane-bottom  weui-footer_fixed-bottom">手机号码登录查看订单</a>
+		</section>
 	</body>
 
 </html>
